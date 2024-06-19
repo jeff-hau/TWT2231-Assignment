@@ -1,0 +1,135 @@
+.home {
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #F5DAD2;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 0px;
+    padding-bottom: 20px; 
+}
+  
+.tomorrow-container {
+    max-width: 1198px;
+    margin-top: 60px;
+    width: 100%; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+    background-color: #F5DAD2; 
+}
+
+.aqi-image {
+    width: auto;
+    max-width: 600px;
+    padding: 50px 0px; 
+    margin: w0px auto;
+    height: auto; 
+
+}
+  
+.country-selector {
+    background-color: white; 
+    padding: 20px; 
+    margin: 10px calc(10% - 20px) 20px calc(10% - 20px); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.country-selector h2 {
+    margin: 0px 0px 15px 0px;
+    font-size: 40px; 
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    margin-bottom: 15px; 
+    justify-content: center; 
+}
+
+button {
+    padding: 10px 15px; 
+    font-size: 20px;
+    background-color: #E1AFD1; 
+    color: rgb(79, 78, 78);
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+  
+button:hover {
+    background-color: #7469B6; 
+    color: #ffffff;
+}
+  
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 139, 195, 0.5); 
+}
+  
+#output {
+    display: flex; 
+    width: calc(90% - 0px); 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-bottom: 50px; 
+    margin-top: 20px; 
+    box-sizing: border-box; 
+}
+
+.column-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.column {
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    overflow-y: auto; 
+}
+
+.result {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 18px; 
+}
+
+.result th,
+.result td {
+    border: 1px solid #020202;
+    padding: 8px;
+}
+
+.result th {
+    background-color: #153448; 
+    font-size: 20px;
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+@media (max-width: 1000px) {
+    .output {
+      flex-direction: column; 
+    }
+  
+    .column-container {
+      flex-direction: column; 
+    }
+}

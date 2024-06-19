@@ -1,0 +1,140 @@
+.awareness-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('../assets/Quotes_BG.jpg') no-repeat center center/cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.awareness-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.quote-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.quote-text {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: transform 1.0s ease-in-out;
+}
+
+.quote-author {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.awareness-section:hover .quote-text {
+  transform: scale(1.5);
+}
+
+.button-section {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url('../assets/BG1.jpg') no-repeat center center/cover;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.button-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.info-button {
+  flex: 1;
+  max-width: calc(33.33% - 50px);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 25px;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+  margin: 0 25px;
+  text-align: center;
+}
+
+.info-button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+.text-section {
+  display: none;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  min-height: 150px;
+  font-size: 20px;
+  text-align: justify;
+  border: none;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.text-section.visible {
+  display: block;
+}
+
+.reduce-section {
+  padding: 20px 0; /* Adjust the padding as needed */
+  text-align: center;
+  background-color: #F5DAD2;
+  margin: 0; /* Remove any margin */
+}
+
+.reduce-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.reduce-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reduce-image {
+  max-width: 100%;
+  max-height: 100vh; 
+  margin-bottom: 2rem;
+  height: auto;
+  transition: transform 0.8s ease-in-out;
+}
+
+.reduce-image:hover {
+  transform: scale(1.1);
+}

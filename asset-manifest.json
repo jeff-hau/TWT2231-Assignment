@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TWT2231-Assignment/static/css/main.6576a592.css",
+    "main.js": "/TWT2231-Assignment/static/js/main.d6812a11.js",
+    "static/js/453.d4893e75.chunk.js": "/TWT2231-Assignment/static/js/453.d4893e75.chunk.js",
+    "static/media/BG1.jpg": "/TWT2231-Assignment/static/media/BG1.8fbc41574360b872cdd7.jpg",
+    "static/media/Quotes_BG.jpg": "/TWT2231-Assignment/static/media/Quotes_BG.f768bbd2c4dfbbadd57c.jpg",
+    "static/media/reduce.jpg": "/TWT2231-Assignment/static/media/reduce.715ae86b6427a816f0ae.jpg",
+    "static/media/haze.jpg": "/TWT2231-Assignment/static/media/haze.a2b2c7508aac16b9a9e4.jpg",
+    "static/media/AQI.png": "/TWT2231-Assignment/static/media/AQI.4f674aabb1d7b28595a5.png",
+    "static/media/logo.png": "/TWT2231-Assignment/static/media/logo.a7ee7675670698bfb923.png",
+    "index.html": "/TWT2231-Assignment/index.html",
+    "main.6576a592.css.map": "/TWT2231-Assignment/static/css/main.6576a592.css.map",
+    "main.d6812a11.js.map": "/TWT2231-Assignment/static/js/main.d6812a11.js.map",
+    "453.d4893e75.chunk.js.map": "/TWT2231-Assignment/static/js/453.d4893e75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6576a592.css",
+    "static/js/main.d6812a11.js"
+  ]
+}
